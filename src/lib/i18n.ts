@@ -7,7 +7,6 @@ const en = {
   announce: (day: string, by: string) => `Now taking orders for ${day} · Order by ${by}`,
   announceNone: "New bake days coming soon · Join the list at the bottom of the page",
   hero: {
-    eyebrow: "Homemade pan dulce",
     title1: "Pan dulce,",
     title2: "baked to order.",
     sub: "Conchas, miguelitos, cañones and more, made by hand in small batches. Order ahead, pick up fresh.",
@@ -43,7 +42,7 @@ const en = {
   },
   custom: {
     band: "Feeding a crowd?",
-    bandSub: "Birthday, baby shower, office breakfast: we bake trays and big orders just for you. Tell us what you need and we'll reply with a quote.",
+    bandSub: "Baby shower, office breakfast: we bake trays and big orders just for you. Tell us what you need and we'll reply with a quote.",
     bandCta: "Plan a party order",
     title: "Custom & party orders",
     sub: "Tell us about your event. We'll reply by text or email with availability and a quote, usually within a day.",
@@ -88,7 +87,7 @@ const en = {
     notifyPh: "Email or phone number",
     notifyCta: "Notify me",
     notifyDone: "You're on the list!",
-    homemade: "Made by hand in a home kitchen.",
+    homemade: "Made by hand and made with love.",
   },
   cart: {
     title: "Your bag",
@@ -161,7 +160,6 @@ const es: Dict = {
   announce: (day: string, by: string) => `Ya puedes pedir para el ${day} · Pide a más tardar el ${by}`,
   announceNone: "Pronto anunciaremos nuevos días de horneado · Únete a la lista al final de la página",
   hero: {
-    eyebrow: "Pan dulce casero",
     title1: "Pan dulce,",
     title2: "hecho por encargo.",
     sub: "Conchas, miguelitos, cañones y mucho más, hechos a mano en tandas pequeñas. Haz tu pedido con anticipación y recógelo recién horneado.",
@@ -185,7 +183,7 @@ const es: Dict = {
   menu: {
     kicker: "El menú",
     title: "Recién salido del horno",
-    sub: "Tandas pequeñas, hechas desde cero cada día de horneado.",
+    sub: "Tandas pequeñas, hechas desde cero cada día horneado.",
     each: "c/u",
     mix: "Combina sabores",
     bagBar: (n: number) => `Ver mi pedido · ${n} ${n === 1 ? "producto" : "productos"}`,
@@ -202,7 +200,7 @@ const es: Dict = {
   custom: {
     band: "¿Tienes una fiesta?",
     bandSub:
-      "Cumpleaños, baby shower, desayuno en la oficina: preparamos bandejas y pedidos grandes especialmente para ti. Cuéntanos qué necesitas y te enviamos una cotización.",
+      "Baby shower, desayuno en la oficina: preparamos bandejas y pedidos grandes especialmente para ti. Cuéntanos qué necesitas y te enviamos una cotización.",
     bandCta: "Pide una cotización",
     title: "Fiestas y pedidos especiales",
     sub: "Cuéntanos sobre tu evento. Te responderemos por mensaje de texto o correo con la disponibilidad y una cotización, normalmente en un día.",
@@ -247,7 +245,7 @@ const es: Dict = {
     notifyPh: "Correo o teléfono",
     notifyCta: "Avísame",
     notifyDone: "¡Listo! Ya estás en la lista.",
-    homemade: "Hecho a mano en una cocina casera.",
+    homemade: "Hecho a mano y con mucho amor.",
   },
   cart: {
     title: "Tu pedido",
