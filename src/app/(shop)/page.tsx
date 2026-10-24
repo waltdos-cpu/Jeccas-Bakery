@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Flower, Marquee, Scallop, Squiggle, Starburst } from "@/components/decor";
+import { Marquee, Scallop, Squiggle, Starburst } from "@/components/decor";
 import { MenuGrid } from "@/components/menu-grid";
 import { DICT, productName } from "@/lib/i18n";
 import { getLang } from "@/lib/lang";
@@ -35,10 +35,7 @@ export default async function Home() {
       <section className="tile-lines relative bg-cobalt text-cream">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 pt-12 pb-20 sm:px-6 md:grid-cols-[1.1fr_1fr] md:pt-20 md:pb-28">
           <div>
-            <p className="inline-flex items-center gap-2 rounded-full bg-cream/10 px-4 py-1.5 text-sm font-bold tracking-wide ring-1 ring-cream/20">
-              <Flower className="size-4 text-marigold" /> {t.hero.eyebrow}
-            </p>
-            <h1 className="mt-6 text-[3.4rem] leading-[0.92] sm:text-7xl lg:text-[5.6rem]">
+            <h1 className="text-[3.4rem] leading-[0.92] sm:text-7xl lg:text-[5.6rem]">
               {t.hero.title1}
               <br />
               <span className="relative inline-block text-marigold">

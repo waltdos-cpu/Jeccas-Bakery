@@ -7,7 +7,7 @@ import { getLang } from "@/lib/lang";
 
 export const metadata: Metadata = {
   title: "Party & custom orders",
-  description: "Trays and large orders of homemade pan dulce for birthdays, showers, and office breakfasts.",
+  description: "Trays and large orders of homemade pan dulce for baby showers and office breakfasts.",
 };
 
 export default async function CustomPage() {
