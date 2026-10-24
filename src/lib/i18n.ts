@@ -87,7 +87,7 @@ const en = {
     notifyPh: "Email or phone number",
     notifyCta: "Notify me",
     notifyDone: "You're on the list!",
-    homemade: "Made by hand in a home kitchen.",
+    homemade: "Made by hand and made with love.",
   },
   cart: {
     title: "Your bag",
@@ -245,7 +245,7 @@ const es: Dict = {
     notifyPh: "Correo o teléfono",
     notifyCta: "Avísame",
     notifyDone: "¡Listo! Ya estás en la lista.",
-    homemade: "Hecho a mano en una cocina casera.",
+    homemade: "Hecho a mano y con mucho amor.",
   },
   cart: {
     title: "Tu pedido",
