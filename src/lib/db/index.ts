@@ -9,7 +9,9 @@ export const usingSupabase = Boolean(process.env.SUPABASE_URL && process.env.SUP
 
 function pick(): Repo {
   if (usingSupabase) return supabaseRepo;
-  if (process.env.VERCEL) {
+  // The local JSON store needs a writable disk, which hosts like Vercel and
+  // Netlify don't have, so production always requires Supabase.
+  if (process.env.NODE_ENV === "production") {
     throw new Error("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set in production.");
   }
   return localRepo;
