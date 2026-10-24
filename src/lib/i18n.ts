@@ -183,7 +183,7 @@ const es: Dict = {
   menu: {
     kicker: "El menú",
     title: "Recién salido del horno",
-    sub: "Tandas pequeñas, hechas desde cero cada día de horneado.",
+    sub: "Tandas pequeñas, hechas desde cero cada día horneado.",
     each: "c/u",
     mix: "Combina sabores",
     bagBar: (n: number) => `Ver mi pedido · ${n} ${n === 1 ? "producto" : "productos"}`,
